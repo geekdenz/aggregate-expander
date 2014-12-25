@@ -19,10 +19,12 @@ import java.io.PrintWriter;
 public class Main {
 
 	public static void main(String args[]) throws FileNotFoundException, IOException {
+		/*
 		System.out.println("Hello Tim");
 		args = new String[2];
 		args[0] = "sample.csv";
 		args[1] = "sample.out.csv";
+				*/
 		if (args.length != 2) {
 			System.out.println("Usage: java -jar program input output");
 			System.exit(1);
